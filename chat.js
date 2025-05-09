@@ -46,7 +46,7 @@ Sprich den Nutzer ruhig direkt an und beantworte Fragen kurz, klar und ehrlich. 
       ],
     }),
   });
-
+});
   const json = await response.json();
   const reply = json.choices?.[0]?.message?.content || "Ich habe keine Antwort.";
 
